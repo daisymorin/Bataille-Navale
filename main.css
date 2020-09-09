@@ -1,0 +1,89 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background: url(img/bateauPirate.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family:'Pathway Gothic One';
+}
+#header
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoJeu
+{
+    width: 15vw;
+    height: 15vh;
+    margin-top: 25px;
+}
+
+#logo img
+{
+    width: 20vw;
+    height: 20vh;
+    
+}
+
+#logo p
+{
+    font-size: 12px;
+    text-align: center;
+    margin-top: -4%;
+    font-weight: bold;
+}
+
+#formulaire
+{
+   text-align: center;
+}
+
+input[type=text]
+{
+    text-align: center;
+    width: 25vw;
+    height: 6vh;
+    border-radius: 30px;
+    margin-top: 2%;
+}
+
+button
+{
+    width: 15vw;
+    height: 6vh;
+    border-radius: 30px;
+    margin-top: 2%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#level{
+    display: flex;
+    padding-top:;
+    justify-content: space-around;
+    align-items:center ;
+    padding-top: 25%;
+    
+}
+button.level{
+    font-size: 35px;
+    height:10vh;
+    color: #000000;
+    font-family:'Pathway Gothic One';
+}
+.level:hover{
+    background-color:#c4c4c4;
+    
+}
+
+h1
+{
+    font-size: 80px;
+    text-align: center;
+    color: #4B1934;
+    text-shadow: -3px 0 white, 3px 1px white, 1px 3px white, 0 -3px white;
+}
+
